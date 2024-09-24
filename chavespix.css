@@ -1,0 +1,68 @@
+body {
+    
+    text-align: center;
+    background-image: url(https://png.pngtree.com/background/20211215/original/pngtree-simple-modern-abstract-gardient-blue-background-picture-image_1454962.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position:center;
+    font-family: "Lora", serif;
+  font-optical-sizing: auto;
+  font-weight: weight;
+  font-style: normal;
+}
+div{
+    margin: 2%;
+    padding: 2%;
+    border: 2%;
+    border-style: solid;
+    text-align:center;
+    
+    background-color: #f5e4af;
+}
+
+header {
+    background-color: #0b0968; /* Verde vibrante para simbolizar esperança */
+    color: #fff;
+    text-align: center;
+    padding: 5px; /* Espaço interno do cabeçalho */
+    position: relative; /* Define o elemento como relativo */
+    top: -10px;
+    
+  }
+
+  ul{    list-style-type: none; /* Remove os marcadores da lista */
+    padding: 0; /* Remove o padding padrão */
+    display: flex; /* Alinha os itens em linha */
+    justify-content: center; /* Centraliza os itens */
+    gap: 20px; /* Espaçamento entre os itens */
+}
+
+
+
+    ul li {
+      border: 2px solid #000; /* Borda quadrada ao redor dos botões */
+      border-radius: 0; /* Mantém as bordas quadradas */
+      padding: 10px 15px; /* Espaçamento interno dos botões */
+      background-color: #fff;
+  }
+
+  ul li:hover{
+    background-color: gold;
+  }
+  
+  ul li a {
+      text-decoration: none; /* Remove o sublinhado dos links */
+      color: #000; /* Cor do texto dos links */
+  }
+
+
+  footer {
+    position: relative; /* Define o elemento como relativo */
+    top: 100px; /* Move o elemento 20 pixels para baixo */
+    background-color: #020747;
+    color: #fff;
+    text-align: center;
+    padding: 20px;
+  }
+  
+  div:hover{background-color: gold;}

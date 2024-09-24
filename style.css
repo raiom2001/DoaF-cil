@@ -1,0 +1,98 @@
+body {
+  font-family: "Lora", serif;
+  font-optical-sizing: auto;
+  font-weight: weight;
+  font-style: normal;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    background-image: url(https://png.pngtree.com/background/20211215/original/pngtree-simple-modern-abstract-gardient-blue-background-picture-image_1454962.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position:center;
+}
+
+  
+  header {
+    background-color: #0b0968; /* Verde vibrante para simbolizar esperança */
+    color: #fff;
+    text-align: center;
+    padding: 5px; /* Espaço interno do cabeçalho */
+    position: relative; /* Define o elemento como relativo */
+    top: -10px;
+    
+  }
+
+  ul{
+    list-style-type: none; /* Remove os marcadores da lista */
+    padding: 0; /* Remove o padding padrão */
+    display: flex; /* Alinha os itens em linha */
+    justify-content: center; /* Centraliza os itens */
+    gap: 20px; /* Espaçamento entre os itens */
+  
+  }
+
+
+
+    ul li {
+      border: 2px solid #000; /* Borda quadrada ao redor dos botões */
+      border-radius: 0; /* Mantém as bordas quadradas */
+      padding: 10px 15px; /* Espaçamento interno dos botões */
+      background-color: #fff;  }
+
+  ul li:hover{
+    background-color: gold;
+  }
+  
+  ul li a {
+      text-decoration: none; /* Remove o sublinhado dos links */
+      color: #000; /* Cor do texto dos links */
+  }
+
+ 
+  .texto {
+    text-align: center;
+    padding: 50px;
+    max-width: 800px;
+    margin: 0 auto;
+    color: #333;
+  }
+  
+  h1 {
+    font-size: 3rem;
+    font-weight: bold;
+    margin-bottom: 20px;
+  }
+  
+  .imagem {
+    width: 100%;
+    max-width: 800px;
+    margin: 0 auto;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+  }
+  
+  footer {
+    position: relative; /* Define o elemento como relativo */
+    top: 40px; /* Move o elemento 20 pixels para baixo */
+    background-color: #020747;
+    color: #fff;
+    text-align: center;
+    padding: 20px;
+  }
+  
+  .btn-donate { /* Adicione um botão de doação */
+    background-color: #fff;
+    color: #4CAF50;
+    border: 2px solid #4CAF50;
+    padding: 15px 30px;
+    border-radius: 5px;
+    text-decoration: none;
+    margin: 20px;
+    display: inline-block;
+  }
+  
+  .btn-donate:hover {
+    background-color: #4CAF50;
+    color: #fff;
+  }

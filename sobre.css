@@ -1,0 +1,76 @@
+body {
+    text-align: center;
+    background-image: url(https://png.pngtree.com/background/20211215/original/pngtree-simple-modern-abstract-gardient-blue-background-picture-image_1454962.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    font-family: "Lora", serif;
+    font-optical-sizing: auto;
+}
+
+header {
+    background-color: #0b0968; /* Cor do cabeçalho */
+    color: #fff;
+    text-align: center;
+    padding: 10px; /* Espaço interno do cabeçalho */
+}
+
+ul {
+    list-style-type: none; /* Remove os marcadores da lista */
+    padding: 0; /* Remove o padding padrão */
+    display: flex; /* Alinha os itens em linha */
+    justify-content: center; /* Centraliza os itens */
+    gap: 20px; /* Espaçamento entre os itens */
+}
+
+ul li {
+    border: 2px solid #050505; /* Borda branca ao redor dos itens */
+    border-radius: 5px; /* Bordas levemente arredondadas */
+    padding: 10px 15px; /* Espaçamento interno dos itens */
+    background-color: rgba(252, 252, 252, 0.8); /* Fundo branco semi-transparente */
+}
+
+ul li:hover {
+    background-color: gold; /* Muda a cor de fundo ao passar o mouse */
+}
+
+ul li a {
+    text-decoration: none; /* Remove o sublinhado dos links */
+    color: #000; /* Cor do texto dos links */
+}
+
+main {
+    margin-top: 20px; /* Espaço acima do conteúdo principal */
+    border-style: solid;
+    
+    background-color: rgb(243, 248, 170);
+}
+
+
+.section {
+    margin: 20px auto; /* Margem automática para centralizar as seções */
+    padding: 20px; /* Espaçamento interno das seções */
+    background-color: rgba(255, 255, 255, 0.9); /* Fundo branco semi-transparente para as seções */
+    border-radius: 10px; /* Bordas arredondadas para as seções */
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2); /* Sombra para dar profundidade */
+    max-width: 600px; /* Largura máxima das seções */
+}
+
+h1, h2 {
+    color: #0b0968; /* Cor dos títulos */
+}
+
+h1 {
+    margin-bottom: 20px; /* Espaço abaixo do título principal */
+}
+
+footer {
+    position: relative;
+    top: 20px; /* Move o rodapé para cima um pouco */
+    background-color: #020747; /* Cor de fundo do rodapé */
+    color: #fff;
+    text-align: center;
+    padding: 20px;
+}
+
+
